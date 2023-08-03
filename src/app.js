@@ -13,7 +13,7 @@ function start() {
   // console.log("1st- topIcon example: ",topIcon)
 
   let iconsList = ["bi-suit-heart-fill text-danger","bi-suit-diamond-fill text-danger","bi-suit-club-fill text-black","bi-suit-spade-fill text-black"]
-  let numberList = ["1","2","3","4","5","6","7","8","9","10","J","Q","K"]
+  let numberList = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
   let randomIconNumber = Math.floor((Math.random()*iconsList.length))
   let randomNumber = Math.floor((Math.random()*numberList.length))
 
