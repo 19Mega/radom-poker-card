@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+.icon-rotate{
+    transform: rotate(180deg);
+}
+
+
+#card-border{
+    background-image: url("https://i.gifer.com/9lZ7.gif");
+}
+
+body {
+    background-color: rgb(63, 63, 63);
+}
+
