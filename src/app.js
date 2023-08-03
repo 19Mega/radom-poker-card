@@ -45,6 +45,8 @@ function start() {
   console.log(randomIconNumber)
   console.log(randomNumber)
 
+  cuentaRegresiva()
+  
 };
 
 window.onload = start()
@@ -53,6 +55,27 @@ function myFunction(){
   location.reload(); 
 }
 
-
 document.getElementById("myButton").addEventListener("click", myFunction);
 
+
+
+
+function cuentaRegresiva () { 
+let countdownElement = document.querySelector('p');
+let countdown = 10
+
+const countdownInterval = setInterval(() => {
+  countdownElement.textContent = countdown
+  countdown--;
+  
+  if (countdown < 0) { 
+    clearInterval(countdownInterval);
+    countdownElement.textContent = "¡Tiempo!"
+    location.reload(); 
+  }
+  
+}, 1000)
+
+
+
+}
